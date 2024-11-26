@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Caviar;
+    src: url(./fonts/caviardreams-webfont.woff);
+  }
+
+
+  ul{
+    list-style-type: none;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+
+.side-nav{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    grid-column: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+nav{
+    display: grid;
+}
+
+button{
+    background-color: none;
+    font-family: Caviar;
+}
+
+.logo-section{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    justify-items: center;
+}
+
+
+.logo-image{
+    width: 200px;
+    height: auto;
+}
+
+.logo-text{
+    text-align: center;
+    font-family: Caviar;
+}
+
+
+.home-food-photo{
+    height: 100%;
+    width: 100%;
+}
+
+.home-photo-container{
+    height: 100vh;
+}
+
+.about-section{
+    font-family: Caviar;
+    font-size: 20px;
+    padding: 150px 0;
+    width: 50vw;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.home-container{
+    display: grid;
+    justify-items: center;
+}
+
+.hours-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.hours-text{
+    font-family: Caviar;
+    font-size: 20px;
+    line-height: 1.8;
+    
+}
+
+.hours-photo{
+    height: 100%;
+    width: 100%;
+}
+
+.map-container{
+    padding: 200px 0;
+    display: grid;
+    gap: 50px;
+}
+
+.map-title{
+    font-family: Caviar;
+    font-size: 40px;
+    text-align: center;
+}
+
+.menu-section{
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    padding: 20px 0;
+    line-height: 1.8;
+    font-family: Caviar;
+}
+
+.dish-section{
+    margin: 20px;
+}
+
+.reservation-section{
+    text-align: center;
+    font-family: Caviar;
+    margin: 100px;
+}
